@@ -4,6 +4,9 @@ import Headline from './Headline';
 import Skills from './Skills';
 import Education from './Education';
 import Experience from './Experience';
+import Projects from './Projects';
+import Contact from './Contact';
+import Footer from './Footer';
 
 const Home = () => (
   <div>
@@ -14,8 +17,11 @@ const Home = () => (
         <Skills />
         <Experience />
         <Education />
+        <Projects />
+        <Contact />
       </div>
     </div>
+    <Footer />
   </div>
 );
 

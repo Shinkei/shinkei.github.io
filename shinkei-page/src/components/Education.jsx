@@ -6,54 +6,13 @@ const Education = () => (
       <h2>Education</h2>
     </div>
     <div className="education_inner_area">
-      <div className="education_item wow fadeInUp animated" data-line="S">
-        <h6>2005-2007</h6>
-        <a href="#">
-          <h4>Secondary School</h4>
-        </a>
-        <h5>St. Nicholas High School</h5>
-        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-        </p>
-      </div>
-      <div className="education_item wow fadeInUp animated" data-line="H">
-        <h6>2005-2007</h6>
-        <a href="#">
-          <h4>Secondary School</h4>
-        </a>
-        <h5>St. Nicholas High School</h5>
-        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-        </p>
-      </div>
-      <div className="education_item wow fadeInUp animated" data-line="C">
-        <h6>2005-2007</h6>
-        <a href="#">
-          <h4>Secondary School</h4>
-        </a>
-        <h5>St. Nicholas High School</h5>
-        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-        </p>
-      </div>
-      <div className="education_item wow fadeInUp animated" data-line="M">
-        <h6>2005-2007</h6>
-        <a href="#">
-          <h4>Secondary School</h4>
-        </a>
-        <h5>St. Nicholas High School</h5>
-        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-        </p>
-      </div>
-      <div className="education_item wow fadeInUp animated" data-line="W">
-        <h6>2005-2007</h6>
-        <a href="#">
-          <h4>Secondary School</h4>
-        </a>
-        <h5>St. Nicholas High School</h5>
-        <p>Lorem ipsum dolor sit amets, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+      <div className="education_item wow fadeInUp animated" data-line="🤓">
+        <h6>Jul 2003 - Nov 2010</h6>
+        <div>
+          <h4>Systems Engineer</h4>
+        </div>
+        <h5>Fundacion Universitaria San Martin</h5>
+        <p>Got best GPA.
         </p>
       </div>
     </div>

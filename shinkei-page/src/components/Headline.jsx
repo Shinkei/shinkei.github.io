@@ -51,18 +51,23 @@ const Headline = () => (
           </div>
           <ul className="social_icon">
             <li>
-              <a href="https://twitter.com/Shinkei1">
-                <i className="fa fa-twitter" />
-              </a>
-            </li>
-            <li>
               <a href="https://www.linkedin.com/in/jorgeivanramirezh/">
                 <i className="fa fa-linkedin" />
               </a>
             </li>
             <li>
+              <a href="https://twitter.com/Shinkei1">
+                <i className="fa fa-twitter" />
+              </a>
+            </li>
+            <li>
               <a href="https://github.com/Shinkei">
                 <i className="fa fa-github" />
+              </a>
+            </li>
+            <li>
+              <a href="https://gitlab.com/shinkei">
+                <i className="fa fa-gitlab" />
               </a>
             </li>
           </ul>
