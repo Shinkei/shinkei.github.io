@@ -1,4 +1,5 @@
 import React from 'react';
+import './Headline.css';
 
 const Headline = () => (
   <section className="about_person_area pad" id="about">
@@ -6,7 +7,7 @@ const Headline = () => (
       <div className="col-md-5">
         <div className="person_img">
           <img src="img/member/photo.jpg" alt="" />
-          <a className="download_btn" href="#" >
+          <a className="download_btn" href="#about" >
             <span>Download Resume</span>
           </a>
         </div>

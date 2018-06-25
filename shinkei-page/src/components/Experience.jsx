@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Experience = () => (
-  <section className="education_area pad" id="education">
+  <section className="education_area pad" id="experience">
     <div className="main_title">
       <h2>Experience</h2>
     </div>

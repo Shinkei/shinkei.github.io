@@ -46,19 +46,16 @@ const Footer = () => (
               <a href="#about">ABOUT ME </a>
             </li>
             <li>
-              <a href="#skill">Skill</a>
+              <a href="#skill">SKILL</a>
             </li>
             <li>
-              <a href="#education">Education</a>
+              <a href="#experience">EXPERIENCE</a>
             </li>
             <li>
-              <a href="#services">SERVICES</a>
+              <a href="#education">EDUCATION</a>
             </li>
             <li>
-              <a href="#portfolio">PORTFOLIO</a>
-            </li>
-            <li>
-              <a href="#news">News</a>
+              <a href="#portfolio">PROJECTS</a>
             </li>
             <li>
               <a href="#contact">CONTACT</a>
