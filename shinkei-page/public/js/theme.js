@@ -92,30 +92,6 @@
   }
   blog_slider();
 
-
-  /*----------------------------------------------------*/
-  /*  Google map js
-    /*----------------------------------------------------*/
-
-  if ($('#mapBox').length) {
-    const $lat = $('#mapBox').data('lat');
-    const $lon = $('#mapBox').data('lon');
-    const $zoom = $('#mapBox').data('zoom');
-    const map = new GMaps({
-      el: '#mapBox',
-      lat: $lat,
-      lng: $lon,
-      scrollwheel: false,
-      scaleControl: true,
-      streetViewControl: false,
-      panControl: true,
-      disableDoubleClickZoom: true,
-      mapTypeControl: false,
-      zoom: $zoom,
-      styles: [{ featureType: 'administrative.country', elementType: 'geometry', stylers: [{ visibility: 'simplified' }, { hue: '#ff0000' }] }],
-    });
-
-  }
   $('.header_area .nav.navbar-nav li a[href^="#"]:not([href="#"])').on('click', function (event) {
     const $anchor = $(this);
     $('html, body').stop().animate({
