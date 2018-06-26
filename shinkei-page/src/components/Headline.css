@@ -1,3 +1,16 @@
+.download_btn {
+  display: block;
+  background: #1d8ffb;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 20px;
+  color: #222222;
+  font-size: 18px;
+  font-family: "Yellowtail", cursive;
+  position: relative;
+  overflow: hidden;
+}
+
 .download_btn span {
   display: inline-block;
   width: 100%;
@@ -18,7 +31,7 @@
   color: #222222;
   top: -100%;
   left: 0px;
-  
+  font-family: FontAwesome;
   transition: all 200ms ease-in;
 }
 
@@ -31,3 +44,76 @@
 .download_btn:hover:before {
   top: 0px;
 }
+
+.about_person_area {
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.about_person_area .person_img img {
+  max-width: 100%;
+}
+
+.about_person_area .person_img .download_btn {
+  margin-top: 40px;
+}
+
+.about_person_area .person_details {
+  margin-left: 0px;
+}
+.about_person_area .person_details h3 {
+  font-size: 36px;
+  color: #333333;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.about_person_area .person_details h3 span {
+  color: #1d8ffb;
+}
+
+.about_person_area .person_details h4 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #666666;
+  padding-bottom: 15px;
+}
+
+.about_person_area .person_details p {
+  font-size: 13px;
+  line-height: 24px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.about_person_area .person_details .person_information {
+  padding: 15px 0px 25px 0px;
+}
+
+.about_person_area .person_details .person_information ul {
+  display: inline-block;
+}
+
+.about_person_area .person_details .person_information ul li a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+}
+
+.about_person_area .person_details .person_information ul + ul {
+  padding-left: 55px;
+}
+
+.about_person_area .person_details .person_information ul + ul li a {
+  font-size: 13px;
+  line-height: 26px;
+  color: #666666;
+  font-family: "Raleway", sans-serif;
+}
+

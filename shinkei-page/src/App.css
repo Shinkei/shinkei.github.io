@@ -220,63 +220,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------------*/
 /* Header Menu Area css
 ============================================================================================ */
-.header_area {
-  background: #1d8ffb;
-}
-
-.header_area .navbar.navbar-default {
-  border: none;
-  border-radius: 0px;
-  background: transparent;
-  margin: 0px;
-}
-
-.header_area .navbar.navbar-default .navbar-header .navbar-brand {
-  padding: 0;
-  display: block;
-  vertical-align: middle;
-  line-height: 76px;
-}
-
-.header_area .navbar.navbar-default .navbar-header .navbar-brand img {
-  display: inline-block;
-}
-
-.header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li {
-  margin-right: 40px;
-}
-
-.header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li a {
-  padding: 0px;
-  background: transparent;
-  line-height: 80px;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #222222;
-  display: inline-block;
-  transition: all 400ms linear 0s;
-}
-
-.header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:hover a, .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.active a {
-  color: #fff;
-}
-
-.header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:last-child {
-  margin-right: 0px;
-}
-
-.header_area.stricky-fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  left: 0;
-  z-index: 9999;
-}
-
-.header_area.stricky-fixed + section, .header_area.stricky-fixed + div, .header_area.stricky-fixed + .row {
-  margin-top: 80px;
-}
 
 /* End Header Menu Area css
 ============================================================================================ */
@@ -284,83 +227,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------------*/
 /* About Person area css
 ============================================================================================ */
-.about_person_area {
-  /* background: #fff; */
-  margin-top: 60px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
 
-.about_person_area .person_img {
-  max-width: 322px;
-}
-
-.about_person_area .person_img img {
-  max-width: 100%;
-}
-
-.about_person_area .person_img .download_btn {
-  margin-top: 40px;
-}
-
-.about_person_area .person_details {
-  margin-left: -30px;
-}
-
-.about_person_area .person_details h3 {
-  font-size: 36px;
-  color: #333333;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-.about_person_area .person_details h3 span {
-  color: #1d8ffb;
-}
-
-.about_person_area .person_details h4 {
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  color: #666666;
-  padding-bottom: 15px;
-}
-
-.about_person_area .person_details p {
-  font-size: 13px;
-  line-height: 24px;
-  color: #333333;
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-}
-
-.about_person_area .person_details .person_information {
-  padding: 15px 0px 25px 0px;
-}
-
-.about_person_area .person_details .person_information ul {
-  display: inline-block;
-}
-
-.about_person_area .person_details .person_information ul li a {
-  font-size: 13px;
-  line-height: 26px;
-  color: #333333;
-  font-family: "Raleway", sans-serif;
-}
-
-.about_person_area .person_details .person_information ul + ul {
-  padding-left: 55px;
-}
-
-.about_person_area .person_details .person_information ul + ul li a {
-  font-size: 13px;
-  line-height: 26px;
-  color: #666666;
-  font-family: "Raleway", sans-serif;
-}
 
 .social_icon li {
   display: inline-block;
@@ -431,52 +298,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 /*----------------------------------------------------*/
 /* Download BTN area css
 ============================================================================================ */
-.download_btn {
-  display: block;
-  background: #1d8ffb;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 20px;
-  color: #222222;
-  font-size: 18px;
-  font-family: "Yellowtail", cursive;
-  position: relative;
-  overflow: hidden;
-}
 
-.download_btn span {
-  display: inline-block;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  height: 100%;
-  transition: all 400ms linear 0s;
-}
-
-.download_btn:before {
-  content: "\f019";
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  line-height: 40px;
-  font-size: 18px;
-  color: #222222;
-  top: -100%;
-  left: 0px;
-  font-family: FontAwesome;
-  transition: all 200ms ease-in;
-}
-
-.download_btn:hover span {
-  -webkit-transform: translateY(300%);
-  -ms-transform: translateY(300%);
-  transform: translateY(300%);
-}
-
-.download_btn:hover:before {
-  top: 0px;
-}
 
 .contact_btn {
   max-width: 140px;
