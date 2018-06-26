@@ -1,4 +1,5 @@
 import React from 'react';
+import './Education.css';
 
 const Education = () => (
   <section className="education_area pad" id="education">
