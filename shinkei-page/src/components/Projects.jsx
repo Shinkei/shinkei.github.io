@@ -1,4 +1,5 @@
 import React from 'react';
+import './Projects.css';
 
 const Projects = () => (
   <section className="portfolio_area pad" id="portfolio">
@@ -13,7 +14,7 @@ const Projects = () => (
               <img src="img/portfolio/portfolio-1.png" alt="" />
             </div>
             <div className="portfolio_title">
-              <a href="#">
+              <a href="#about">
                 <h4>Dreams visualization</h4>
               </a>
               <h5>Development</h5>
@@ -26,7 +27,7 @@ const Projects = () => (
               <img src="img/portfolio/portfolio-2.png" alt="" />
             </div>
             <div className="portfolio_title">
-              <a href="#">
+              <a href="#about">
                 <h4>Dreams visualization</h4>
               </a>
               <h5>Development</h5>
@@ -39,7 +40,7 @@ const Projects = () => (
               <img src="img/portfolio/portfolio-3.png" alt="" />
             </div>
             <div className="portfolio_title">
-              <a href="#">
+              <a href="#about">
                 <h4>Dreams visualization</h4>
               </a>
               <h5>Development</h5>
@@ -52,7 +53,7 @@ const Projects = () => (
               <img src="img/portfolio/portfolio-4.png" alt="" />
             </div>
             <div className="portfolio_title">
-              <a href="#">
+              <a href="#about">
                 <h4>Dreams visualization</h4>
               </a>
               <h5>Development</h5>
@@ -65,7 +66,7 @@ const Projects = () => (
               <img src="img/portfolio/portfolio-5.png" alt="" />
             </div>
             <div className="portfolio_title">
-              <a href="#">
+              <a href="#about">
                 <h4>Dreams visualization</h4>
               </a>
               <h5>Development</h5>
@@ -78,7 +79,7 @@ const Projects = () => (
               <img src="img/portfolio/portfolio-6.png" alt="" />
             </div>
             <div className="portfolio_title">
-              <a href="#">
+              <a href="#about">
                 <h4>Dreams visualization</h4>
               </a>
               <h5>Development</h5>

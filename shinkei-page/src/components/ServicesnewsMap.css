@@ -1,0 +1,47 @@
+/* Service Area css
+============================================================================================ */
+.service_area {
+  background: #1d8ffb;
+  padding: 0px 50px 60px 50px;
+}
+
+.service_area .service_inner .service_item {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.service_area .service_inner .service_item i {
+  height: 62px;
+  width: 62px;
+  line-height: 60px;
+  border-radius: 50%;
+  background: #efefef;
+  border: 2px solid #222222;
+  font-size: 30px;
+  color: #222222;
+  transition: all 400ms linear 0s;
+}
+
+.service_area .service_inner .service_item h4 {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #222222;
+  padding: 25px 0px 15px 0px;
+}
+
+.service_area .service_inner .service_item p {
+  font-size: 13px;
+  font-family: "Raleway", sans-serif;
+  line-height: 24px;
+  color: #333333;
+}
+
+.service_area .service_inner .service_item:hover i {
+  background: #222222;
+  border-color: #efefef;
+  color: #fff;
+}
+
+/* End Service Area css
+============================================================================================ */
