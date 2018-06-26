@@ -45,3 +45,175 @@
 
 /* End Service Area css
 ============================================================================================ */
+/* News area css
+============================================================================================ */
+.twitter_area {
+  background: #fff;
+  padding: 0px 15px;
+  min-height: 420px;
+}
+
+.twitter_area ul {
+  padding-bottom: 20px;
+}
+
+.twitter_area ul li {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.twitter_area ul li a {
+  color: #1d8ffb;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.twitter_area ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.w_title {
+  padding: 28px 0px 20px 0px;
+}
+
+.w_title h3 {
+  font-size: 18px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+.w_title h3 i {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #0084b4;
+}
+
+.instagram_area {
+  background: #fff;
+  padding: 0px 15px;
+  overflow: hidden;
+  clear: both;
+  min-height: 420px;
+}
+
+.instagram_area .w_title h3 i {
+  color: #895a4d;
+}
+
+.instagram_area ul {
+  overflow: hidden;
+  clear: both;
+}
+
+.instagram_area ul li {
+  width: calc(100% / 3);
+  float: left;
+  overflow: hidden;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.instagram_area ul li a img {
+  max-width: 100%;
+}
+
+.instagram_area .follow_btn {
+  max-width: 170px;
+  background: #895a4d;
+  line-height: 35px;
+  display: block;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin: 5px auto 22px;
+  overflow: hidden;
+}
+
+.blog_slider_area {
+  background: #fff;
+  padding: 0px 15px;
+  position: relative;
+  min-height: 420px;
+}
+
+.blog_slider_area .blog_slider_inner .item h3 {
+  font-size: 14px;
+  color: #333333;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  padding: 25px 0px 10px 0px;
+}
+
+.blog_slider_area .blog_slider_inner .item p {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  padding-bottom: 10px;
+}
+
+.blog_slider_area .blog_slider_inner .item p a {
+  color: #333333;
+}
+
+.blog_slider_area .blog_slider_inner .item h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #666666;
+  font-weight: normal;
+  padding-bottom: 14px;
+}
+
+.blog_slider_area .blog_slider_inner .item h5 a {
+  color: #1d8ffb;
+}
+
+.blog_slider_area .owl-prev {
+  position: absolute;
+  left: 15px;
+  top: 27px;
+  font-size: 18px;
+  color: #666666;
+  transition: all 400ms linear 0s;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.blog_slider_area .owl-prev:hover {
+  color: #1d8ffb;
+}
+
+.blog_slider_area .owl-next {
+  position: absolute;
+  right: 15px;
+  top: 27px;
+  font-size: 18px;
+  color: #666666;
+  transition: all 400ms linear 0s;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.blog_slider_area .owl-next:hover {
+  color: #1d8ffb;
+}
+
+.mapBox {
+  height: 220px;
+  margin-top: 60px !important;
+}
+
+/* End News area css
+============================================================================================ */
