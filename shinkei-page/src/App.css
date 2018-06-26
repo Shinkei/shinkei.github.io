@@ -1,42 +1,8 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky Ahmed
-@URL: http://wethemez.com
-Email: rockybd1995@gmail.com
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Ramirez
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ profile
-05/ button
-06/ skill 
-07/ portfolio 
-08/ blog
-09/ footer 
-=====================================================================*/
-/*----------------------------------------------------*/
-/*font Variables*/
-/*Color Variables*/
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:100,200,300,400,500,600,700,800,900|Yellowtail");
 .col-md-offset-right-1 {
   margin-right: 8.33333333%;
 }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
 ul {
   list-style: none;
   margin: 0px;
@@ -64,13 +30,11 @@ body {
 }
 
 body.light_bg {
-  /* background: url(../img/Pattern_Light.png) repeat scroll center center; */
   background-color: #ededed;
   background-size: contain;
 }
 
 body.dark_bg {
-  /* background: url(../img/Pattern_Drak.png) repeat scroll center center; */
   background-size: contain;
 }
 
@@ -99,8 +63,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding-top: 10px;
 }
 
-/* Main title css
-============================================================================================ */
+
 .main_title {
   text-align: center;
   padding: 60px 0px;
@@ -118,8 +81,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   padding: 0px 23px;
 }
 
-/* End Main title css
-============================================================================================ */
+
 #preloader {
   position: fixed;
   top: 0;
@@ -216,19 +178,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Header Menu Area css
-============================================================================================ */
-
-/* End Header Menu Area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* About Person area css
-============================================================================================ */
-
-
 .social_icon li {
   display: inline-block;
   margin-right: 20px;
@@ -291,218 +240,3 @@ body, p, h1, h2, h3, h4, h5, h6 {
   background: #0077b5;
   color: #fff;
 }
-
-/* End About Person area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Download BTN area css
-============================================================================================ */
-
-
-/* End Download BTN area css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Skill Area css
-============================================================================================ */
-
-
-/* End Skill Area css
-============================================================================================ */
-/* Education Area css
-============================================================================================ */
-
-
-/* End Education Area css
-============================================================================================ */
-
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Portfolio css
-============================================================================================ */
-
-
-/* End Portfolio css
-============================================================================================ */
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-
-
-
-
-
-
-
-
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-.envalab-style-switch {
-  position: fixed;
-  z-index: 9999;
-  top: 160px;
-  left: -200px;
-  background: #FFFFFF;
-}
-
-.envalab-style-switch .switched-options {
-  position: relative;
-  width: 200px;
-  padding: 20px 20px 30px 20px;
-  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
-  clear: both;
-}
-
-.envalab-style-switch .switched-options .styles {
-  margin-right: -5px;
-}
-
-.envalab-style-switch .switched-options .styles li {
-  width: calc(98% / 4);
-  float: left;
-}
-
-.envalab-style-switch .switched-options .styles li a {
-  height: 35px;
-  display: block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  background: #1d8ffb;
-}
-
-.envalab-style-switch .switched-options .styles li:nth-child(2) a {
-  background: #fe562e;
-}
-
-.envalab-style-switch .switched-options .styles li:nth-child(3) a {
-  background: #fe2e86;
-}
-
-.envalab-style-switch .switched-options .styles li:nth-child(4) a {
-  background: #732efe;
-}
-
-.envalab-style-switch .switched-options .styles li:nth-child(5) a {
-  background: #26b7e7;
-}
-
-.envalab-style-switch .switched-options .styles li:last-child a {
-  background: #27a79a;
-}
-
-.envalab-style-switch .switch-button {
-  cursor: pointer;
-  position: absolute;
-  right: -40px;
-  top: 0px;
-  height: 40px;
-  width: 40px;
-  text-align: center;
-  background: #fff;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  box-shadow: 2px 1px 4px grey;
-  line-height: 40px;
-  color: #222222;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.envalab-style-switch .config-title {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  text-align: center;
-  text-transform: uppercase;
-  box-shadow: 2px 1px 4px grey;
-  margin-bottom: 20px;
-  padding: 10px 0px;
-}
-
-/*---------------------------------------------------- */
-/*----------------------------------------------------*/
-/* Footer area css
-============================================================================================ */
-.footer_inner {
-  text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 80px 0px 60px 0px;
-  margin-top: -30px;
-}
-
-.footer_inner img {
-  max-width: 100%;
-  margin-bottom: 40px;
-}
-
-.footer_inner ul li a {
-  background: #0077b5;
-  color: #fff;
-}
-
-.footer_inner ul li:nth-child(2) a {
-  background: #1da1f2;
-  color: #fff;
-}
-
-.footer_inner ul li:nth-child(3) a {
-  background: #24292e;
-  color: #fff;
-}
-
-.footer_inner ul li:nth-child(4) a {
-  background: #e24329;
-  color: #fff;
-}
-
-.footer_inner ul li:last-child a {
-  background: #faaa5e;
-  color: #fff;
-}
-
-.footer_copyright {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.footer_copyright .pull-left h5 {
-  font-size: 13px;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  line-height: 100px;
-}
-
-.footer_copyright .pull-left h5 a {
-  font-weight: bold;
-  color: #1d8ffb;
-}
-
-.footer_copyright .pull-right .navbar-nav li {
-  margin-right: 40px;
-}
-
-.footer_copyright .pull-right .navbar-nav li a {
-  padding: 0px;
-  background: transparent;
-  line-height: 100px;
-  text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  color: #fff;
-  transition: all 400ms linear 0s;
-}
-
-.footer_copyright .pull-right .navbar-nav li:last-child {
-  margin-right: 0px;
-}
-
-.footer_copyright .pull-right .navbar-nav li:hover a, .footer_copyright .pull-right .navbar-nav li.active a {
-  color: #1d8ffb;
-}
-
-/* End Footer area css
-============================================================================================ */
-/*---------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */
