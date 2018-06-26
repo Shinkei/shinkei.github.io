@@ -1,0 +1,58 @@
+.contact_btn {
+  max-width: 140px;
+  display: block;
+  line-height: 40px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none;
+  border-radius: 0px;
+  background: #1d8ffb;
+  width: 100%;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact_btn span {
+  display: inline-block;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: 100%;
+  transition: all 400ms linear 0s;
+}
+
+.contact_btn:before {
+  content: "\f1d8";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: #fff;
+  top: -100%;
+  left: 0px;
+  font-family: FontAwesome;
+  transition: all 200ms ease-in;
+}
+
+.contact_btn:focus {
+  background: #1d8ffb;
+}
+
+.contact_btn:hover {
+  background: #1d8ffb;
+}
+
+.contact_btn:hover span {
+  -webkit-transform: translateY(300%);
+  -ms-transform: translateY(300%);
+  transform: translateY(300%);
+}
+
+.contact_btn:hover:before {
+  top: 0px;
+}

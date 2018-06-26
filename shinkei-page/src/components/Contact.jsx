@@ -1,4 +1,5 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => (
   <section className="contact_area pad" id="contact">
