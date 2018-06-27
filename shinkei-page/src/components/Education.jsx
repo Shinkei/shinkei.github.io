@@ -7,7 +7,7 @@ const Education = () => (
       <h2>Education</h2>
     </div>
     <div className="education_inner_area">
-      <div className="education_item wow fadeInUp animated" data-line="🤓">
+      <div className="education_item wow fadeInUp animated">
         <h6>Jul 2003 - Nov 2010</h6>
         <div>
           <h4>Systems Engineer</h4>
