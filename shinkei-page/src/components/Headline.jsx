@@ -37,6 +37,9 @@ const Headline = () => (
               <li>
                 <span>Email</span>
               </li>
+              <li>
+                <span>Languages</span>
+              </li>
             </ul>
             <ul>
               <li>
@@ -47,6 +50,9 @@ const Headline = () => (
               </li>
               <li>
                 <p>ing.jorgeivanramirezh@gmail.com</p>
+              </li>
+              <li>
+                <p>Spanish, English and German</p>
               </li>
             </ul>
           </div>
