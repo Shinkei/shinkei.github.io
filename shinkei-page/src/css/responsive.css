@@ -10,10 +10,6 @@
     .social_icon li {
         margin-right: 4px;
     }
-    .education_area .education_inner_area .education_item {
-        max-width: 400px !important;
-        right: 2px;
-    }
     .education_area .education_inner_area .education_item:nth-child(even) {
         left: 1px;
     }
@@ -40,13 +36,6 @@
     }
     .myskill_area .col-md-6:last-child{
         margin-top: 40px;
-    }
-    .education_area .education_inner_area .education_item {
-        margin-bottom: 236px;
-        right: 4px;
-    }
-    .education_area .education_inner_area .education_item:nth-child(even) {
-        left: 2px;
     }
     .portfolio_area .portfolio_list_inner{
         max-width: 342px;
@@ -121,15 +110,8 @@
         right: -23px;
         width: 122%;
     }
-    .education_area .education_inner_area .education_item:nth-child(2) {
-        margin-top: 275px;
-    }
     .education_area .education_inner_area .education_item {
         margin-bottom: 280px;
-    }
-    .education_area .education_inner_area .education_item {
-        width: 49%;
-        max-width: none; 
     }
 }
 @media (max-width: 600px){
@@ -149,9 +131,6 @@
     .education_area .education_inner_area .education_item {
         margin-bottom: 30px;
     }
-    .education_area .education_inner_area .education_item:nth-child(2) {
-        margin-top: 30px;
-    }
     .education_area .education_inner_area .education_item:nth-child(2n)::before {
         right: -53px;
         left: auto;
@@ -160,10 +139,6 @@
         overflow: visible;
         max-width: 250px;
         margin: auto;
-    }
-    .education_area .education_inner_area .education_item {
-        width: 100%;
-        max-width: none;
     }
     .education_area .education_inner_area .education_item::after {
         width: 110%;

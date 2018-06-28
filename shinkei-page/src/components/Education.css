@@ -19,16 +19,12 @@
 }
 
 .education_area .education_inner_area .education_item {
-  width: 50%;
-  max-width: 499px;
   background: #fff;
   margin-bottom: 30px;
   padding: 20px;
   position: relative;
   z-index: 2;
 }
-
-
 
 .education_area .education_inner_area .education_item:after {
   content: "";
@@ -38,22 +34,6 @@
   top: 0px;
   width: 101%;
   right: -1px;
-}
-
-.education_area .education_inner_area .education_item:nth-child(even) {
-  float: right;
-}
-
-.education_area .education_inner_area .education_item:nth-child(even):after {
-  /* left: -78px; */
-}
-
-.education_area .education_inner_area .education_item:nth-child(odd) {
-  float: left;
-}
-
-.education_area .education_inner_area .education_item:nth-child(2) {
-  margin-top: 108px;
 }
 
 .education_area .education_inner_area .education_item:last-child {
