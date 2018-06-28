@@ -24,22 +24,6 @@
     stickyHeader();
   });
 
-  /*----------------------------------------------------*/
-  /*  Skill js
-    /*----------------------------------------------------*/
-  $('.skill_item_inner').each(function () {
-    $(this).waypoint(() => {
-      const progressBar = $('.progress-bar');
-      progressBar.each(function (indx) {
-        $(this).css('width', `${$(this).attr('aria-valuenow')}%`);
-      });
-    }, {
-      triggerOnce: true,
-      offset: 'bottom-in-view',
-
-    });
-  });
-
 
   /*----------------------------------------------------*/
   /*  portfolio_isotope
@@ -113,10 +97,26 @@
 
 
   // preloader js
-  $(window).load(() => { // makes sure the whole site is loaded
+  $(window).load(() => {
+    console.log('aaaaaaaaa') // makes sure the whole site is loaded
     $('#preloader_spinner').fadeOut(); // will first fade out the loading animation
     $('#preloader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
     $('body').delay(150).css({ overflow: 'visible' });
+  /*----------------------------------------------------*/
+  /*  Skill js
+  /*----------------------------------------------------*/
+  $('.skill_item_inner').each(function () {
+    $(this).waypoint(() => {
+      const progressBar = $('.progress-bar');
+      progressBar.each(function (indx) {
+        $(this).css('width', `${$(this).attr('aria-valuenow')}%`);
+      });
+    }, {
+      triggerOnce: true,
+      offset: 'bottom-in-view',
+
+    });
+  });
   });
 
 

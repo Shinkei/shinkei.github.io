@@ -21,12 +21,12 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={80}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">85</span>%
+                  <span className="counter">Advance</span>
                 </div>
               </div>
             </div>
@@ -37,12 +37,12 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="65"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={80}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">65</span>%
+                  <span className="counter">Advance</span>
                 </div>
               </div>
             </div>
@@ -53,12 +53,12 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={60}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">75</span>%
+                  <span className="counter">Proficient</span>
                 </div>
               </div>
             </div>
@@ -69,12 +69,28 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={80}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">95</span>%
+                  <span className="counter">Advance</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="single_skill">
+            <h4>Jest</h4>
+            <div className="progress">
+              <div
+                className="progress-bar"
+                role="progressbar"
+                aria-valuenow={40}
+                aria-valuemin={0}
+                aria-valuemax={100}
+              >
+                <div className="progress_parcent">
+                  <span className="counter">Familiar</span>
                 </div>
               </div>
             </div>
@@ -95,12 +111,12 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="85"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={80}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">85</span>%
+                  <span className="counter">Advance</span>
                 </div>
               </div>
             </div>
@@ -111,12 +127,12 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="65"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={60}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">65</span>%
+                  <span className="counter">Proficient</span>
                 </div>
               </div>
             </div>
@@ -127,12 +143,12 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="75"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={60}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">75</span>%
+                  <span className="counter">Proficient</span>
                 </div>
               </div>
             </div>
@@ -143,12 +159,28 @@ const Skills = () => (
               <div
                 className="progress-bar"
                 role="progressbar"
-                aria-valuenow="95"
-                aria-valuemin="0"
-                aria-valuemax="100"
+                aria-valuenow={60}
+                aria-valuemin={0}
+                aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">95</span>%
+                  <span className="counter">Proficient</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="single_skill">
+            <h4>Mocha</h4>
+            <div className="progress">
+              <div
+                className="progress-bar"
+                role="progressbar"
+                aria-valuenow={80}
+                aria-valuemin={0}
+                aria-valuemax={100}
+              >
+                <div className="progress_parcent">
+                  <span className="counter">Advance</span>
                 </div>
               </div>
             </div>
