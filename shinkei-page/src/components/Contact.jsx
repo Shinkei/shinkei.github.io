@@ -37,7 +37,7 @@ const Contact = () => (
             <h3>Send Me a Message</h3>
           </div>
           <div className="row">
-            <form action="contact_process.php" method="post" id="contactForm">
+            <form method="post" id="contactForm">
               <div className="form-group col-md-12">
                 <input
                   type="text"
