@@ -12,13 +12,8 @@ const Contact = () => (
           <div className="contact_title">
             <h3>Want to Talk?</h3>
           </div>
-          <p>There are many variations of passages of Lorem Ipsum available, but the et majori
-            have suffered alteration in some form, by injected humour, Domised words which dont
-            look even slightly believable. If you are going to use a pas of Lorem Ipsum, youn
-            eed to be sure there isnt anything embarrassing hidden in the middle of text.
-          </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua.
+          <p>The best way to cantact me is by email, so feel free to write me an email,
+             or write a message here, I will check it by sure.
           </p>
           <div className="media">
             <div className="media-left">

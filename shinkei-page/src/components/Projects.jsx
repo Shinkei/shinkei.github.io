@@ -63,26 +63,26 @@ const Projects = () => (
         <div className="col-md-4 photo">
           <div className="portfolio_item">
             <div className="portfolio_img">
-              <img src="img/portfolio/portfolio-5.png" alt="" width="315" height="280" />
+              <img src="img/portfolio/todo-app.png" alt="" width="315" height="280" />
             </div>
             <div className="portfolio_title">
-              <a href="#about">
-                <h4>Dreams visualization</h4>
+              <a href="https://github.com/Shinkei/todo-react">
+                <h4>TODO React App</h4>
               </a>
-              <h5>Script to use the pomodoro technique through the terminal</h5>
+              <h5>Todo application made in react and redux</h5>
             </div>
           </div>
         </div>
         <div className="col-md-4 marketing">
           <div className="portfolio_item">
             <div className="portfolio_img">
-              <img src="img/portfolio/portfolio-6.png" alt="" width="315" height="280" />
+              <img src="img/portfolio/shinkei.png" alt="" width="315" height="280" />
             </div>
             <div className="portfolio_title">
-              <a href="#about">
-                <h4>Dreams visualization</h4>
+              <a href="https://github.com/Shinkei">
+                <h4>Check my other repositories</h4>
               </a>
-              <h5>Script to use the pomodoro technique through the terminal</h5>
+              <h5>Check my other repositories in Gitlab and Github</h5>
             </div>
           </div>
         </div>
