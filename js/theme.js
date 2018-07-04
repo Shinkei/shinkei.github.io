@@ -98,7 +98,6 @@
 
   // preloader js
   $(window).load(() => {
-    console.log('aaaaaaaaa') // makes sure the whole site is loaded
     $('#preloader_spinner').fadeOut(); // will first fade out the loading animation
     $('#preloader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
     $('body').delay(150).css({ overflow: 'visible' });
