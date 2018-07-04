@@ -7,13 +7,15 @@ const Skills = () => (
       <h2>Current Technology Stack</h2>
     </div>
     <div className="row">
+      <div className="skill_text">
+        <h4>Current Technology Stack</h4>
+        <p>This is a list of my current stack this means that I am currently using this
+          technologies in my job and side projects, There are some other technologies where
+          I have more experience like Java, If you want to know more about those technologies,
+          just send me a message :).
+        </p>
+      </div>
       <div className="col-md-6 wow fadeInUp animated">
-        <div className="skill_text">
-          <h4>Current Technology Stack</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Loren Ipsum has been the industrys standard dummy text.
-          </p>
-        </div>
         <div className="skill_item_inner">
           <div className="single_skill">
             <h4>Javascript</h4>
@@ -98,12 +100,6 @@ const Skills = () => (
         </div>
       </div>
       <div className="col-md-6 wow fadeInUp animated">
-        <div className="skill_text">
-          <h4>Web Design Skills</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-             Loren Ipsum has been the industry standard dummy text.
-          </p>
-        </div>
         <div className="skill_item_inner">
           <div className="single_skill">
             <h4>HTML5</h4>
