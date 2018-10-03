@@ -28,7 +28,7 @@ const Skills = () => (
                 aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">Advance</span>
+                  <span className="counter">Advanced</span>
                 </div>
               </div>
             </div>
@@ -44,7 +44,7 @@ const Skills = () => (
                 aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">Advance</span>
+                  <span className="counter">Advanced</span>
                 </div>
               </div>
             </div>
@@ -76,7 +76,7 @@ const Skills = () => (
                 aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">Advance</span>
+                  <span className="counter">Advanced</span>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ const Skills = () => (
                 aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">Advance</span>
+                  <span className="counter">Advanced</span>
                 </div>
               </div>
             </div>
@@ -176,7 +176,7 @@ const Skills = () => (
                 aria-valuemax={100}
               >
                 <div className="progress_parcent">
-                  <span className="counter">Advance</span>
+                  <span className="counter">Advanced</span>
                 </div>
               </div>
             </div>

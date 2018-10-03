@@ -7,24 +7,24 @@ const Headline = () => (
       <div className="col-md-5">
         <div className="person_img">
           <img src="img/member/photo.jpg" alt="" />
-          <a className="download_btn" href="#about" >
+          {/* <a className="download_btn" href="#about" >
             <span>Download Resume</span>
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="col-md-7">
         <div className="row person_details">
           <h4>Full Stack Developer</h4>
-          <p>Full stack developer, interested in new JavaScript technologies and passionated for
-            learning and collaborate with the community, current collaborator in the Angular
+          <p>Full stack developer, interested in new JavaScript technologies and passionate for
+            learning and collaborate with the community, a current collaborator in the Angular
             Medellin group and video game developer in the leisure time, nothing professional.
 
-            During my career I have worked on various enterprise technology in different
+            During my career, I have worked on various enterprise technology in different
             technologies and methodologies especially SCRUM and KANBAN, also I have worked in
             distributed teams and can coordinate tasks for team members in different locations to
             reach the deadlines with knowledge in TDD.
             I consider myself a very ordered person and a bit serious, but I really love learning
-            new technologies, trekking and traveling.
+            new technologies, trekking, and traveling.
           </p>
           <div className="person_information">
             <ul>

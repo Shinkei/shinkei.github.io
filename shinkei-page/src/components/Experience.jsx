@@ -7,14 +7,19 @@ const Experience = () => (
     </div>
     <div className="education_inner_area">
       <div className="education_item wow fadeInUp animated" >
-        <h6>Sep 2016 - PRESENT</h6>
+        <h6>Sep 2016 - Sep 2018</h6>
         <div>
           <h4>Full Stack Senior Developer</h4>
         </div>
         <h5>Endava</h5>
-        <p><strong>Glowforge Project:</strong> Create, design and develop components made in react,
+        <p><strong>Lululemon Project:</strong> Create, design and develop components made in React
+          and redux that consume and interact an API made with node and express, also creating unit
+          and integration tests, all these will interact with a laser printer and give an appropriate
+          user experience to the client.
+          <br />
+          <strong>Glowforge Project:</strong> Create, design and develop components made in react,
            ES6 and redux that consume and interact with an API made in node and CSS3
-          express, also creating unit and integration tests bases on TDD Node.JS
+          express, also creating unit and integration tests based on TDD Node.JS.
           <br />
           <strong>NaviHealth Project:</strong> Maintenance of Angular and Java application in a
           microservices architecture, with an Oracle database and MongoDB. We
@@ -29,7 +34,7 @@ const Experience = () => (
         </div>
         <h5>Velocity Partners</h5>
         <p>Perform of a challenging upgrade of a legacy application to new
-           technologies like Java 8, apache 1.8 and Ant 1.9, giving support to SyBase
+           technologies like Java 8, Apache 1.8 and Ant 1.9, giving support to SQLServer
            database.
         </p>
       </div>
@@ -39,12 +44,12 @@ const Experience = () => (
           <h4>Java / Python Developer</h4>
         </div>
         <h5>Globant</h5>
-        <p><strong>National Geographic Project:</strong> Maintenance of the the web page for US and
-           UK of the National Geographic Society, builded in Python with the
-           framework django, and JQuery using Postgres and CouchDB as databases,
+        <p><strong>National Geographic Project:</strong> Maintenance of the web page for US and
+           The UK of the National Geographic Society, built in Python with the
+           framework Django, and JQuery using Postgres and CouchDB as databases,
            also guided the team dividing the task to develop a new feature.
           <br />
-          <strong>IOM Project:</strong> Creation and implementation OIM’s Integration System for
+          <strong>IOM Project:</strong> Creation and implementation of OIM’s Integration System for
           justice and Peace (SIJYP), build in Java and the framework JBoss SEAM
           running on the web server JBossAS, contacting the Colombian
           government to manage a system to help war victims.
@@ -57,7 +62,7 @@ const Experience = () => (
         </div>
         <h5>Cobiscorp</h5>
         <p>Creation of Web Services with the technologies Jax-WS, Jax-RPC, Jax-B, English - Advance
-          WSDLs and XMLs; all this coded in Java using SQL-Server, under
+          WSDLs and XML; all this code in Java using SQL-Server, under
           WebSphere application server, to communicate remote towns with
           transactional banking through telephone infrastructure.
         </p>
@@ -69,7 +74,7 @@ const Experience = () => (
         </div>
         <h5>ITAC</h5>
         <p>Development and maintenance of business banking applications, in Java
-           EE5,Oracle db, web services and Glassfish application server. Also handle
+           EE5, Oracle DB, web services and Glassfish application server. Also, handle
            the client’s requirement under pressure to solve production bugs for
            transactions of high amounts of money.
         </p>
@@ -82,8 +87,7 @@ const Experience = () => (
         <h5>Datatools</h5>
         <p>Collaborate in the Design and Development from scratch of an enterprise
            application using Java EE5, JBoss SEAM, Richfaces and Postgres, and
-           JBOSS AS. This application handles the traffic procedures of different
-           cities in Colombia and Peru.
+           JBOSS AS. This application handles the traffic procedures of different cities in Colombia and Peru.
         </p>
       </div>
     </div>

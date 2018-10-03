@@ -34,7 +34,7 @@ class Contact extends React.Component {
       subject: '',
       message: '',
     });
-    toast.success('Message sent successfully', { position: toast.POSITION.BOTTOM_RIGHT });
+    toast.error('There is something wrong :S', { position: toast.POSITION.BOTTOM_RIGHT });
   }
 
   render() {
