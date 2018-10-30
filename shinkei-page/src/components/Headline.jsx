@@ -46,7 +46,7 @@ const Headline = () => (
                 <p>Colombian</p>
               </li>
               <li>
-                <p>Medellin, Colombia</p>
+                <p>Bogota, Colombia</p>
               </li>
               <li>
                 <p>ing.jorgeivanramirezh@gmail.com</p>

@@ -12,10 +12,9 @@ const Experience = () => (
           <h4>Full Stack Senior Developer</h4>
         </div>
         <h5>Endava</h5>
-        <p><strong>Lululemon Project:</strong> Create, design and develop components made in React
-          and redux that consume and interact an API made with node and express, also creating unit
-          and integration tests, all these will interact with a laser printer and give an appropriate
-          user experience to the client.
+        <p><strong>Lululemon Project:</strong> Maintenance React components to add accessibility
+          features for people with visual limitations. ARIA and semantic attributes were implemented
+          for this purpose.
           <br />
           <strong>Glowforge Project:</strong> Create, design and develop components made in react,
            ES6 and redux that consume and interact with an API made in node and CSS3
@@ -58,7 +57,7 @@ const Experience = () => (
       <div className="education_item wow fadeInUp animated" >
         <h6>Oct 2011 - Apr 2012</h6>
         <div>
-          <h4>technical Specialist</h4>
+          <h4>Technical Specialist</h4>
         </div>
         <h5>Cobiscorp</h5>
         <p>Creation of Web Services with the technologies Jax-WS, Jax-RPC, Jax-B, English - Advance
