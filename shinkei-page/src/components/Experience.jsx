@@ -7,6 +7,27 @@ const Experience = () => (
     </div>
     <div className="education_inner_area">
       <div className="education_item wow fadeInUp animated" >
+        <h6>Jul 2019 - Current</h6>
+        <div>
+          <h4>WEB Engineer</h4>
+        </div>
+        <h5>Sensory Minds</h5>
+        <p><strong>JTI Project:</strong> Update and maintein a CRM application made in react, focused for the JTI market
+          <br />
+        </p>
+      </div>
+       <div className="education_item wow fadeInUp animated" >
+        <h6>Dic 2018 - Jun 2010</h6>
+        <div>
+          <h4>React Developer</h4>
+        </div>
+        <h5>Freelance</h5>
+        <p><strong>Halligan Project:</strong> Create and maintein a react application with several components, also do the
+          migration of the UI components from an external library to one holded by the company
+          <br />
+        </p>
+      </div>
+      <div className="education_item wow fadeInUp animated" >
         <h6>Sep 2016 - Sep 2018</h6>
         <div>
           <h4>Full Stack Senior Developer</h4>
