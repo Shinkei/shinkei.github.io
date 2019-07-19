@@ -66,10 +66,10 @@ class Contact extends React.Component {
           <div className="col-md-6">
             <div className="contact_from_area wow fadeInUp animated">
               <div className="contact_title">
-                <h3>Send Me a Message</h3>
+                <h3>Send Me a Message By Email</h3>
               </div>
               <div className="row">
-                <form onSubmit={this.handleFormSubmit} id="contactForm">
+<!--                 <form onSubmit={this.handleFormSubmit} id="contactForm">
                   <div className="form-group col-md-12">
                     <input
                       type="text"
@@ -91,8 +91,8 @@ class Contact extends React.Component {
                       value={this.state.lastName}
                       onChange={this.handleFormChange}
                     />
-                  </div>
-                  <div className="form-group col-md-12">
+                  </div> -->
+<!--                   <div className="form-group col-md-12">
                     <input
                       type="email"
                       className="form-control"
@@ -102,8 +102,8 @@ class Contact extends React.Component {
                       value={this.state.email}
                       onChange={this.handleFormChange}
                     />
-                  </div>
-                  <div className="form-group col-md-12">
+                  </div> -->
+<!--                   <div className="form-group col-md-12">
                     <input
                       type="text"
                       className="form-control"
@@ -113,8 +113,8 @@ class Contact extends React.Component {
                       value={this.state.subject}
                       onChange={this.handleFormChange}
                     />
-                  </div>
-                  <div className="form-group col-md-12">
+                  </div> -->
+<!--                   <div className="form-group col-md-12">
                     <textarea
                       className="form-control"
                       rows={1}
@@ -124,12 +124,12 @@ class Contact extends React.Component {
                       value={this.state.message}
                       onChange={this.handleFormChange}
                     />
-                  </div>
-                  <div className="form-group col-md-12">
+                  </div> -->
+<!--                   <div className="form-group col-md-12">
                     <button className="btn btn-default contact_btn" type="submit">
                       <span>Send Massage</span>
                     </button>
-                  </div>
+                  </div> -->
                 </form>
                 <ToastContainer autoClose={5000} />
               </div>
