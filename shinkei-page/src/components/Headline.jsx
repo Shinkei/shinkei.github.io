@@ -16,8 +16,8 @@ const Headline = () => (
         <div className="row person_details">
           <h4>Full Stack Developer</h4>
           <p>Full stack developer, interested in new JavaScript technologies and passionate for
-            learning and collaborate with the community, a current collaborator in the Angular
-            Medellin group and video game developer in the leisure time, nothing professional.
+            learning and collaborate with the community, a former collaborator in the Angular and React
+            Medellin group.
 
             During my career, I have worked on various enterprise technology in different
             technologies and methodologies especially SCRUM and KANBAN, also I have worked in
@@ -46,7 +46,7 @@ const Headline = () => (
                 <p>Colombian</p>
               </li>
               <li>
-                <p>Bogota, Colombia</p>
+                <p>Germany</p>
               </li>
               <li>
                 <p>ing.jorgeivanramirezh@gmail.com</p>
