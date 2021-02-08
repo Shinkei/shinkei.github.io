@@ -1,0 +1,36 @@
+{
+  "name": "shinkei-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.2",
+    "react-toastify": "^4.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "clean": "rm -rf ../css ../fonts ../img ../js ../static ../vendors ../asset-manifest.json ../favicon.ico ../index.html ../manifest.json ../service-worker.js",
+    "clean:build": "rm -r build",
+    "copy": "mv build/* ../",
+    "deploy": "npm-run-all --serial build clean copy clean:build"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
